@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB4CBFC6721099E5CD39C707 /* Pods_FYImagePreviewSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59BC4B304558580940C8FC30 /* Pods_FYImagePreviewSample.framework */; };
 		DFD2DEF51D3E104D001B77EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD2DEF41D3E104D001B77EA /* AppDelegate.swift */; };
 		DFD2DEF71D3E104D001B77EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD2DEF61D3E104D001B77EA /* ViewController.swift */; };
 		DFD2DEFA1D3E104D001B77EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD2DEF81D3E104D001B77EA /* Main.storyboard */; };
 		DFD2DEFC1D3E104D001B77EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD2DEFB1D3E104D001B77EA /* Assets.xcassets */; };
 		DFD2DEFF1D3E104D001B77EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD2DEFD1D3E104D001B77EA /* LaunchScreen.storyboard */; };
+		DFD2DF071D3E12A4001B77EA /* FYPreviewImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD2DF061D3E12A4001B77EA /* FYPreviewImageView.swift */; };
+		DFD2DF0A1D3E2B42001B77EA /* FYImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD2DF091D3E2B42001B77EA /* FYImageViewController.swift */; };
+		DFD2DF311D3E3261001B77EA /* FYMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD2DF301D3E3261001B77EA /* FYMenuTableViewController.swift */; };
+		DFD2DF331D3E45E3001B77EA /* PhotosProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD2DF321D3E45E3001B77EA /* PhotosProvider.swift */; };
+		DFD2DF351D3E45F6001B77EA /* ExamplePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD2DF341D3E45F6001B77EA /* ExamplePhoto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2853E8988D4FA6A643C0D673 /* Pods-FYImagePreviewSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYImagePreviewSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FYImagePreviewSample/Pods-FYImagePreviewSample.debug.xcconfig"; sourceTree = "<group>"; };
+		59BC4B304558580940C8FC30 /* Pods_FYImagePreviewSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYImagePreviewSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		921278BBE9DCBEFD30255537 /* Pods-FYImagePreviewSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYImagePreviewSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-FYImagePreviewSample/Pods-FYImagePreviewSample.release.xcconfig"; sourceTree = "<group>"; };
 		DFD2DEF11D3E104D001B77EA /* FYImagePreviewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYImagePreviewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD2DEF41D3E104D001B77EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFD2DEF61D3E104D001B77EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,12 @@
 		DFD2DEFB1D3E104D001B77EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFD2DEFE1D3E104D001B77EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFD2DF001D3E104D001B77EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD2DF061D3E12A4001B77EA /* FYPreviewImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYPreviewImageView.swift; sourceTree = "<group>"; };
+		DFD2DF081D3E2ADF001B77EA /* FYPreviewSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FYPreviewSample-Bridging-Header.h"; sourceTree = "<group>"; };
+		DFD2DF091D3E2B42001B77EA /* FYImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYImageViewController.swift; sourceTree = "<group>"; };
+		DFD2DF301D3E3261001B77EA /* FYMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYMenuTableViewController.swift; sourceTree = "<group>"; };
+		DFD2DF321D3E45E3001B77EA /* PhotosProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosProvider.swift; sourceTree = "<group>"; };
+		DFD2DF341D3E45F6001B77EA /* ExamplePhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamplePhoto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +44,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB4CBFC6721099E5CD39C707 /* Pods_FYImagePreviewSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0088215DE896A6465167E4B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59BC4B304558580940C8FC30 /* Pods_FYImagePreviewSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E3770FDB309D5750F638424 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2853E8988D4FA6A643C0D673 /* Pods-FYImagePreviewSample.debug.xcconfig */,
+				921278BBE9DCBEFD30255537 /* Pods-FYImagePreviewSample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DFD2DEE81D3E104D001B77EA = {
 			isa = PBXGroup;
 			children = (
 				DFD2DEF31D3E104D001B77EA /* FYImagePreviewSample */,
 				DFD2DEF21D3E104D001B77EA /* Products */,
+				0E3770FDB309D5750F638424 /* Pods */,
+				0088215DE896A6465167E4B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +90,43 @@
 			isa = PBXGroup;
 			children = (
 				DFD2DEF41D3E104D001B77EA /* AppDelegate.swift */,
-				DFD2DEF61D3E104D001B77EA /* ViewController.swift */,
 				DFD2DEF81D3E104D001B77EA /* Main.storyboard */,
 				DFD2DEFB1D3E104D001B77EA /* Assets.xcassets */,
 				DFD2DEFD1D3E104D001B77EA /* LaunchScreen.storyboard */,
 				DFD2DF001D3E104D001B77EA /* Info.plist */,
+				DFD2DF371D3E4675001B77EA /* JTSImageView */,
+				DFD2DF381D3E4684001B77EA /* MWPhotoBrowser */,
+				DFD2DF361D3E4617001B77EA /* NYTPhotoViewer */,
+				DFD2DF081D3E2ADF001B77EA /* FYPreviewSample-Bridging-Header.h */,
 			);
 			path = FYImagePreviewSample;
+			sourceTree = "<group>";
+		};
+		DFD2DF361D3E4617001B77EA /* NYTPhotoViewer */ = {
+			isa = PBXGroup;
+			children = (
+				DFD2DEF61D3E104D001B77EA /* ViewController.swift */,
+				DFD2DF341D3E45F6001B77EA /* ExamplePhoto.swift */,
+				DFD2DF321D3E45E3001B77EA /* PhotosProvider.swift */,
+			);
+			name = NYTPhotoViewer;
+			sourceTree = "<group>";
+		};
+		DFD2DF371D3E4675001B77EA /* JTSImageView */ = {
+			isa = PBXGroup;
+			children = (
+				DFD2DF061D3E12A4001B77EA /* FYPreviewImageView.swift */,
+				DFD2DF091D3E2B42001B77EA /* FYImageViewController.swift */,
+			);
+			name = JTSImageView;
+			sourceTree = "<group>";
+		};
+		DFD2DF381D3E4684001B77EA /* MWPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				DFD2DF301D3E3261001B77EA /* FYMenuTableViewController.swift */,
+			);
+			name = MWPhotoBrowser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DFD2DF031D3E104D001B77EA /* Build configuration list for PBXNativeTarget "FYImagePreviewSample" */;
 			buildPhases = (
+				E98E5B7F302B3E2A53E8C600 /* 📦 Check Pods Manifest.lock */,
 				DFD2DEED1D3E104D001B77EA /* Sources */,
 				DFD2DEEE1D3E104D001B77EA /* Frameworks */,
 				DFD2DEEF1D3E104D001B77EA /* Resources */,
+				9E4A94B3C216FFA7C0AB929B /* 📦 Embed Pods Frameworks */,
+				0C4124A28B353A770B48FFBC /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +198,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C4124A28B353A770B48FFBC /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FYImagePreviewSample/Pods-FYImagePreviewSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E4A94B3C216FFA7C0AB929B /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FYImagePreviewSample/Pods-FYImagePreviewSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E98E5B7F302B3E2A53E8C600 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DFD2DEED1D3E104D001B77EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFD2DF351D3E45F6001B77EA /* ExamplePhoto.swift in Sources */,
 				DFD2DEF71D3E104D001B77EA /* ViewController.swift in Sources */,
 				DFD2DEF51D3E104D001B77EA /* AppDelegate.swift in Sources */,
+				DFD2DF071D3E12A4001B77EA /* FYPreviewImageView.swift in Sources */,
+				DFD2DF311D3E3261001B77EA /* FYMenuTableViewController.swift in Sources */,
+				DFD2DF0A1D3E2B42001B77EA /* FYImageViewController.swift in Sources */,
+				DFD2DF331D3E45E3001B77EA /* PhotosProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,23 +370,27 @@
 		};
 		DFD2DF041D3E104D001B77EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2853E8988D4FA6A643C0D673 /* Pods-FYImagePreviewSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FYImagePreviewSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.julysystems.FYImagePreviewSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FYImagePreviewSample/FYPreviewSample-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		DFD2DF051D3E104D001B77EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 921278BBE9DCBEFD30255537 /* Pods-FYImagePreviewSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FYImagePreviewSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.julysystems.FYImagePreviewSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FYImagePreviewSample/FYPreviewSample-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -288,6 +413,7 @@
 				DFD2DF051D3E104D001B77EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
