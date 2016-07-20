@@ -11,4 +11,5 @@ target 'FYImagePreviewSample' do
   pod "MWPhotoBrowser"
   pod 'JTSImageViewController', '~> 1.5'
   pod 'NYTPhotoViewer', '~> 1.1.0'
+  pod 'ASBPlayerScrubbing'
 end

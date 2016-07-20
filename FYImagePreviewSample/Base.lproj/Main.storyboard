@@ -4,6 +4,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Menu Table View Controller-->
@@ -47,7 +48,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Single Photo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="D42-IB-4Av">
-                                            <rect key="frame" x="15" y="5" width="32" height="20"/>
+                                            <rect key="frame" x="15" y="5" width="92" height="20"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -200,6 +201,26 @@
                                             <segue destination="j6w-4T-2rY" kind="show" id="YEd-Gs-eqO"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="7d7-Pe-yUQ" style="IBUITableViewCellStyleDefault" id="W2k-Wh-ciF">
+                                        <rect key="frame" x="0.0" y="196" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="W2k-Wh-ciF" id="4X2-qg-I2J">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="AKMediaViewer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7d7-Pe-yUQ">
+                                                    <rect key="frame" x="15" y="0.0" width="570" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="duV-qF-m5h" kind="show" id="gpA-Pa-KGo"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -254,6 +275,98 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MnJ-3N-cbH" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1226" y="819"/>
+        </scene>
+        <!--Media Sample View Controller-->
+        <scene sceneID="veo-F8-Kk0">
+            <objects>
+                <viewController id="duV-qF-m5h" customClass="FYAKMediaSampleViewController" customModule="FYImagePreviewSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lBd-q2-2MT"/>
+                        <viewControllerLayoutGuide type="bottom" id="xyz-h8-3af"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RGf-SL-HXA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="lgZ-zp-EHH">
+                                <rect key="frame" x="151" y="70" width="298" height="61"/>
+                                <string key="text">1. Tap any media to bring it in focus
+2. Change your device orientation
+3. Tap "Done" to send back the media</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" directionalLockEnabled="YES" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="140" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="3Ay-mX-0Ff">
+                                <rect key="frame" x="0.0" y="155" width="600" height="445"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MediaCell" id="iMH-zS-iwy" customClass="MediaCell" customModule="FYImagePreviewSample" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="22" width="600" height="140"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="iMH-zS-iwy" id="11j-Bg-ujG">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="140"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="u4A-V6-cLZ">
+                                                    <rect key="frame" x="175" y="0.0" width="249" height="140"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="249" id="xPB-UD-HDa"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="u4A-V6-cLZ" firstAttribute="top" secondItem="11j-Bg-ujG" secondAttribute="topMargin" constant="-8" id="CVw-5H-QEw"/>
+                                                <constraint firstItem="u4A-V6-cLZ" firstAttribute="centerX" secondItem="11j-Bg-ujG" secondAttribute="centerX" id="bXN-Ph-OYO"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="u4A-V6-cLZ" secondAttribute="bottom" constant="-8" id="pfT-Lr-FKM"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="thumbnailView" destination="u4A-V6-cLZ" id="1eS-5u-qaZ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="duV-qF-m5h" id="6mG-5B-TCq"/>
+                                    <outlet property="delegate" destination="duV-qF-m5h" id="Bw1-rI-R1Y"/>
+                                </connections>
+                            </tableView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="AKMediaViewer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="rfb-dr-MZG">
+                                <rect key="frame" x="16" y="28" width="568" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="25"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rfb-dr-MZG" firstAttribute="leading" secondItem="RGf-SL-HXA" secondAttribute="leading" constant="16" id="6H4-1e-kUb"/>
+                            <constraint firstAttribute="trailing" secondItem="3Ay-mX-0Ff" secondAttribute="trailing" id="BN8-8f-qaU"/>
+                            <constraint firstItem="3Ay-mX-0Ff" firstAttribute="top" secondItem="lgZ-zp-EHH" secondAttribute="bottom" constant="24" id="DUD-OW-DAK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3Ay-mX-0Ff" secondAttribute="trailing" constant="113" id="IYH-GG-pc9"/>
+                            <constraint firstItem="3Ay-mX-0Ff" firstAttribute="leading" secondItem="RGf-SL-HXA" secondAttribute="leading" id="Kzs-5z-ehc"/>
+                            <constraint firstItem="xyz-h8-3af" firstAttribute="top" secondItem="3Ay-mX-0Ff" secondAttribute="bottom" id="LY9-1L-jEt"/>
+                            <constraint firstItem="rfb-dr-MZG" firstAttribute="centerX" secondItem="RGf-SL-HXA" secondAttribute="centerX" id="cmA-vS-KK6"/>
+                            <constraint firstItem="3Ay-mX-0Ff" firstAttribute="leading" secondItem="RGf-SL-HXA" secondAttribute="leadingMargin" constant="127" id="eGg-vQ-bIb"/>
+                            <constraint firstAttribute="trailing" secondItem="rfb-dr-MZG" secondAttribute="trailing" constant="16" id="ePE-FY-uBo"/>
+                            <constraint firstItem="lgZ-zp-EHH" firstAttribute="centerX" secondItem="RGf-SL-HXA" secondAttribute="centerX" id="gyl-YZ-xwK"/>
+                            <constraint firstItem="rfb-dr-MZG" firstAttribute="top" secondItem="lBd-q2-2MT" secondAttribute="bottom" constant="8" id="mqA-e1-4Ca"/>
+                            <constraint firstItem="lgZ-zp-EHH" firstAttribute="top" secondItem="rfb-dr-MZG" secondAttribute="bottom" constant="12" id="va7-X6-TS8"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="IYH-GG-pc9"/>
+                                <exclude reference="eGg-vQ-bIb"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="3Ay-mX-0Ff" id="9VO-Bb-TK1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZFo-ye-2XK" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1050" y="1106"/>
         </scene>
     </scenes>
     <resources>

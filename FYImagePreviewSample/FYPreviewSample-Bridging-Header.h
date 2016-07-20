@@ -10,3 +10,4 @@
 #import <SDWebImage/SDWebImageManager.h>
 #import <MWPhotoBrowser/MWPhotoBrowser.h>
 #import <NYTPhotoViewer/NYTPhotosViewController.h>
+#import <ASBPlayerScrubbing/ASBPlayerScrubbing.h>

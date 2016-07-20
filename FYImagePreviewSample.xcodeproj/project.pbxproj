@@ -8,6 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		BB4CBFC6721099E5CD39C707 /* Pods_FYImagePreviewSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59BC4B304558580940C8FC30 /* Pods_FYImagePreviewSample.framework */; };
+		DF6194A81D3FD150008A6BFB /* 1f.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF61949F1D3FD150008A6BFB /* 1f.jpg */; };
+		DF6194A91D3FD150008A6BFB /* 2f.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF6194A01D3FD150008A6BFB /* 2f.jpg */; };
+		DF6194AA1D3FD150008A6BFB /* 3f.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DF6194A11D3FD150008A6BFB /* 3f.mp4 */; };
+		DF6194AB1D3FD150008A6BFB /* 4f.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF6194A21D3FD150008A6BFB /* 4f.jpg */; };
+		DF6194AC1D3FD150008A6BFB /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF6194A41D3FD150008A6BFB /* 1.jpg */; };
+		DF6194AD1D3FD150008A6BFB /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF6194A51D3FD150008A6BFB /* 2.jpg */; };
+		DF6194AE1D3FD150008A6BFB /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF6194A61D3FD150008A6BFB /* 3.jpg */; };
+		DF6194AF1D3FD150008A6BFB /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF6194A71D3FD150008A6BFB /* 4.jpg */; };
+		DFC8EE621D3FCD18002DF74C /* AKImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC8EE4F1D3FCD18002DF74C /* AKImageScrollView.swift */; };
+		DFC8EE631D3FCD18002DF74C /* AKMediaFocusBasicToolbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC8EE501D3FCD18002DF74C /* AKMediaFocusBasicToolbarController.swift */; };
+		DFC8EE641D3FCD18002DF74C /* AKMediaViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC8EE521D3FCD18002DF74C /* AKMediaViewerController.swift */; };
+		DFC8EE651D3FCD18002DF74C /* AKMediaViewerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC8EE531D3FCD18002DF74C /* AKMediaViewerManager.swift */; };
+		DFC8EE661D3FCD18002DF74C /* AKTransparentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC8EE541D3FCD18002DF74C /* AKTransparentView.swift */; };
+		DFC8EE671D3FCD18002DF74C /* AKVideoBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC8EE551D3FCD18002DF74C /* AKVideoBehavior.swift */; };
+		DFC8EE681D3FCD18002DF74C /* AKVideoControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC8EE561D3FCD18002DF74C /* AKVideoControlView.swift */; };
+		DFC8EE691D3FCD18002DF74C /* icon_big_play.png in Resources */ = {isa = PBXBuildFile; fileRef = DFC8EE581D3FCD18002DF74C /* icon_big_play.png */; };
+		DFC8EE6A1D3FCD18002DF74C /* icon_big_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFC8EE591D3FCD18002DF74C /* icon_big_play@2x.png */; };
+		DFC8EE6B1D3FCD18002DF74C /* icon_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = DFC8EE5A1D3FCD18002DF74C /* icon_pause.png */; };
+		DFC8EE6C1D3FCD18002DF74C /* icon_pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFC8EE5B1D3FCD18002DF74C /* icon_pause@2x.png */; };
+		DFC8EE6D1D3FCD18002DF74C /* icon_play.png in Resources */ = {isa = PBXBuildFile; fileRef = DFC8EE5C1D3FCD18002DF74C /* icon_play.png */; };
+		DFC8EE6E1D3FCD18002DF74C /* icon_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFC8EE5D1D3FCD18002DF74C /* icon_play@2x.png */; };
+		DFC8EE6F1D3FCD18002DF74C /* AKMediaFocusBasicToolbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFC8EE5F1D3FCD18002DF74C /* AKMediaFocusBasicToolbar.xib */; };
+		DFC8EE701D3FCD18002DF74C /* AKMediaViewerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFC8EE601D3FCD18002DF74C /* AKMediaViewerController.xib */; };
+		DFC8EE711D3FCD18002DF74C /* AKVideoControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFC8EE611D3FCD18002DF74C /* AKVideoControlView.xib */; };
+		DFC8EE741D3FCD71002DF74C /* MediaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC8EE721D3FCD71002DF74C /* MediaCell.swift */; };
+		DFC8EE751D3FCD71002DF74C /* FYAKMediaSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC8EE731D3FCD71002DF74C /* FYAKMediaSampleViewController.swift */; };
 		DFD2DEF51D3E104D001B77EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD2DEF41D3E104D001B77EA /* AppDelegate.swift */; };
 		DFD2DEF71D3E104D001B77EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD2DEF61D3E104D001B77EA /* ViewController.swift */; };
 		DFD2DEFA1D3E104D001B77EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD2DEF81D3E104D001B77EA /* Main.storyboard */; };
@@ -24,6 +50,33 @@
 		2853E8988D4FA6A643C0D673 /* Pods-FYImagePreviewSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYImagePreviewSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FYImagePreviewSample/Pods-FYImagePreviewSample.debug.xcconfig"; sourceTree = "<group>"; };
 		59BC4B304558580940C8FC30 /* Pods_FYImagePreviewSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYImagePreviewSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		921278BBE9DCBEFD30255537 /* Pods-FYImagePreviewSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYImagePreviewSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-FYImagePreviewSample/Pods-FYImagePreviewSample.release.xcconfig"; sourceTree = "<group>"; };
+		DF61949F1D3FD150008A6BFB /* 1f.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1f.jpg; sourceTree = "<group>"; };
+		DF6194A01D3FD150008A6BFB /* 2f.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2f.jpg; sourceTree = "<group>"; };
+		DF6194A11D3FD150008A6BFB /* 3f.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3f.mp4; sourceTree = "<group>"; };
+		DF6194A21D3FD150008A6BFB /* 4f.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4f.jpg; sourceTree = "<group>"; };
+		DF6194A41D3FD150008A6BFB /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		DF6194A51D3FD150008A6BFB /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		DF6194A61D3FD150008A6BFB /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		DF6194A71D3FD150008A6BFB /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		DFC8EE4F1D3FCD18002DF74C /* AKImageScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKImageScrollView.swift; sourceTree = "<group>"; };
+		DFC8EE501D3FCD18002DF74C /* AKMediaFocusBasicToolbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKMediaFocusBasicToolbarController.swift; sourceTree = "<group>"; };
+		DFC8EE511D3FCD18002DF74C /* AKMediaViewer-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AKMediaViewer-Bridging-Header.h"; sourceTree = "<group>"; };
+		DFC8EE521D3FCD18002DF74C /* AKMediaViewerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKMediaViewerController.swift; sourceTree = "<group>"; };
+		DFC8EE531D3FCD18002DF74C /* AKMediaViewerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKMediaViewerManager.swift; sourceTree = "<group>"; };
+		DFC8EE541D3FCD18002DF74C /* AKTransparentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKTransparentView.swift; sourceTree = "<group>"; };
+		DFC8EE551D3FCD18002DF74C /* AKVideoBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKVideoBehavior.swift; sourceTree = "<group>"; };
+		DFC8EE561D3FCD18002DF74C /* AKVideoControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKVideoControlView.swift; sourceTree = "<group>"; };
+		DFC8EE581D3FCD18002DF74C /* icon_big_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_big_play.png; sourceTree = "<group>"; };
+		DFC8EE591D3FCD18002DF74C /* icon_big_play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_big_play@2x.png"; sourceTree = "<group>"; };
+		DFC8EE5A1D3FCD18002DF74C /* icon_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_pause.png; sourceTree = "<group>"; };
+		DFC8EE5B1D3FCD18002DF74C /* icon_pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_pause@2x.png"; sourceTree = "<group>"; };
+		DFC8EE5C1D3FCD18002DF74C /* icon_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_play.png; sourceTree = "<group>"; };
+		DFC8EE5D1D3FCD18002DF74C /* icon_play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_play@2x.png"; sourceTree = "<group>"; };
+		DFC8EE5F1D3FCD18002DF74C /* AKMediaFocusBasicToolbar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKMediaFocusBasicToolbar.xib; sourceTree = "<group>"; };
+		DFC8EE601D3FCD18002DF74C /* AKMediaViewerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKMediaViewerController.xib; sourceTree = "<group>"; };
+		DFC8EE611D3FCD18002DF74C /* AKVideoControlView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKVideoControlView.xib; sourceTree = "<group>"; };
+		DFC8EE721D3FCD71002DF74C /* MediaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MediaCell.swift; path = xib/MediaCell.swift; sourceTree = "<group>"; };
+		DFC8EE731D3FCD71002DF74C /* FYAKMediaSampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FYAKMediaSampleViewController.swift; path = xib/FYAKMediaSampleViewController.swift; sourceTree = "<group>"; };
 		DFD2DEF11D3E104D001B77EA /* FYImagePreviewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYImagePreviewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD2DEF41D3E104D001B77EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFD2DEF61D3E104D001B77EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +121,80 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		DF61949D1D3FD150008A6BFB /* media */ = {
+			isa = PBXGroup;
+			children = (
+				DF61949E1D3FD150008A6BFB /* full */,
+				DF6194A31D3FD150008A6BFB /* thumbnails */,
+			);
+			path = media;
+			sourceTree = "<group>";
+		};
+		DF61949E1D3FD150008A6BFB /* full */ = {
+			isa = PBXGroup;
+			children = (
+				DF61949F1D3FD150008A6BFB /* 1f.jpg */,
+				DF6194A01D3FD150008A6BFB /* 2f.jpg */,
+				DF6194A11D3FD150008A6BFB /* 3f.mp4 */,
+				DF6194A21D3FD150008A6BFB /* 4f.jpg */,
+			);
+			path = full;
+			sourceTree = "<group>";
+		};
+		DF6194A31D3FD150008A6BFB /* thumbnails */ = {
+			isa = PBXGroup;
+			children = (
+				DF6194A41D3FD150008A6BFB /* 1.jpg */,
+				DF6194A51D3FD150008A6BFB /* 2.jpg */,
+				DF6194A61D3FD150008A6BFB /* 3.jpg */,
+				DF6194A71D3FD150008A6BFB /* 4.jpg */,
+			);
+			path = thumbnails;
+			sourceTree = "<group>";
+		};
+		DFC8EE4E1D3FCD18002DF74C /* AKMediaViewer */ = {
+			isa = PBXGroup;
+			children = (
+				DFC8EE4F1D3FCD18002DF74C /* AKImageScrollView.swift */,
+				DFC8EE501D3FCD18002DF74C /* AKMediaFocusBasicToolbarController.swift */,
+				DFC8EE511D3FCD18002DF74C /* AKMediaViewer-Bridging-Header.h */,
+				DFC8EE521D3FCD18002DF74C /* AKMediaViewerController.swift */,
+				DFC8EE531D3FCD18002DF74C /* AKMediaViewerManager.swift */,
+				DFC8EE541D3FCD18002DF74C /* AKTransparentView.swift */,
+				DFC8EE551D3FCD18002DF74C /* AKVideoBehavior.swift */,
+				DFC8EE561D3FCD18002DF74C /* AKVideoControlView.swift */,
+				DF61949D1D3FD150008A6BFB /* media */,
+				DFC8EE571D3FCD18002DF74C /* Resources */,
+				DFC8EE5E1D3FCD18002DF74C /* xib */,
+				DFC8EE721D3FCD71002DF74C /* MediaCell.swift */,
+				DFC8EE731D3FCD71002DF74C /* FYAKMediaSampleViewController.swift */,
+			);
+			path = AKMediaViewer;
+			sourceTree = "<group>";
+		};
+		DFC8EE571D3FCD18002DF74C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DFC8EE581D3FCD18002DF74C /* icon_big_play.png */,
+				DFC8EE591D3FCD18002DF74C /* icon_big_play@2x.png */,
+				DFC8EE5A1D3FCD18002DF74C /* icon_pause.png */,
+				DFC8EE5B1D3FCD18002DF74C /* icon_pause@2x.png */,
+				DFC8EE5C1D3FCD18002DF74C /* icon_play.png */,
+				DFC8EE5D1D3FCD18002DF74C /* icon_play@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DFC8EE5E1D3FCD18002DF74C /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				DFC8EE5F1D3FCD18002DF74C /* AKMediaFocusBasicToolbar.xib */,
+				DFC8EE601D3FCD18002DF74C /* AKMediaViewerController.xib */,
+				DFC8EE611D3FCD18002DF74C /* AKVideoControlView.xib */,
+			);
+			path = xib;
+			sourceTree = "<group>";
+		};
 		DFD2DEE81D3E104D001B77EA = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +224,7 @@
 				DFD2DF371D3E4675001B77EA /* JTSImageView */,
 				DFD2DF381D3E4684001B77EA /* MWPhotoBrowser */,
 				DFD2DF361D3E4617001B77EA /* NYTPhotoViewer */,
+				DFC8EE4E1D3FCD18002DF74C /* AKMediaViewer */,
 				DFD2DF081D3E2ADF001B77EA /* FYPreviewSample-Bridging-Header.h */,
 			);
 			path = FYImagePreviewSample;
@@ -136,12 +264,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DFD2DF031D3E104D001B77EA /* Build configuration list for PBXNativeTarget "FYImagePreviewSample" */;
 			buildPhases = (
-				E98E5B7F302B3E2A53E8C600 /* 📦 Check Pods Manifest.lock */,
+				E98E5B7F302B3E2A53E8C600 /* [CP] Check Pods Manifest.lock */,
 				DFD2DEED1D3E104D001B77EA /* Sources */,
 				DFD2DEEE1D3E104D001B77EA /* Frameworks */,
 				DFD2DEEF1D3E104D001B77EA /* Resources */,
-				9E4A94B3C216FFA7C0AB929B /* 📦 Embed Pods Frameworks */,
-				0C4124A28B353A770B48FFBC /* 📦 Copy Pods Resources */,
+				9E4A94B3C216FFA7C0AB929B /* [CP] Embed Pods Frameworks */,
+				0C4124A28B353A770B48FFBC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -190,23 +318,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF6194AA1D3FD150008A6BFB /* 3f.mp4 in Resources */,
+				DF6194A81D3FD150008A6BFB /* 1f.jpg in Resources */,
+				DFC8EE6C1D3FCD18002DF74C /* icon_pause@2x.png in Resources */,
 				DFD2DEFF1D3E104D001B77EA /* LaunchScreen.storyboard in Resources */,
+				DF6194AC1D3FD150008A6BFB /* 1.jpg in Resources */,
 				DFD2DEFC1D3E104D001B77EA /* Assets.xcassets in Resources */,
 				DFD2DEFA1D3E104D001B77EA /* Main.storyboard in Resources */,
+				DFC8EE701D3FCD18002DF74C /* AKMediaViewerController.xib in Resources */,
+				DF6194AF1D3FD150008A6BFB /* 4.jpg in Resources */,
+				DFC8EE6A1D3FCD18002DF74C /* icon_big_play@2x.png in Resources */,
+				DFC8EE711D3FCD18002DF74C /* AKVideoControlView.xib in Resources */,
+				DFC8EE6E1D3FCD18002DF74C /* icon_play@2x.png in Resources */,
+				DFC8EE691D3FCD18002DF74C /* icon_big_play.png in Resources */,
+				DF6194AD1D3FD150008A6BFB /* 2.jpg in Resources */,
+				DFC8EE6D1D3FCD18002DF74C /* icon_play.png in Resources */,
+				DFC8EE6F1D3FCD18002DF74C /* AKMediaFocusBasicToolbar.xib in Resources */,
+				DFC8EE6B1D3FCD18002DF74C /* icon_pause.png in Resources */,
+				DF6194A91D3FD150008A6BFB /* 2f.jpg in Resources */,
+				DF6194AE1D3FD150008A6BFB /* 3.jpg in Resources */,
+				DF6194AB1D3FD150008A6BFB /* 4f.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C4124A28B353A770B48FFBC /* 📦 Copy Pods Resources */ = {
+		0C4124A28B353A770B48FFBC /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,14 +359,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FYImagePreviewSample/Pods-FYImagePreviewSample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9E4A94B3C216FFA7C0AB929B /* 📦 Embed Pods Frameworks */ = {
+		9E4A94B3C216FFA7C0AB929B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,14 +374,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FYImagePreviewSample/Pods-FYImagePreviewSample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E98E5B7F302B3E2A53E8C600 /* 📦 Check Pods Manifest.lock */ = {
+		E98E5B7F302B3E2A53E8C600 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,10 +399,19 @@
 				DFD2DF351D3E45F6001B77EA /* ExamplePhoto.swift in Sources */,
 				DFD2DEF71D3E104D001B77EA /* ViewController.swift in Sources */,
 				DFD2DEF51D3E104D001B77EA /* AppDelegate.swift in Sources */,
+				DFC8EE621D3FCD18002DF74C /* AKImageScrollView.swift in Sources */,
 				DFD2DF071D3E12A4001B77EA /* FYPreviewImageView.swift in Sources */,
+				DFC8EE631D3FCD18002DF74C /* AKMediaFocusBasicToolbarController.swift in Sources */,
+				DFC8EE681D3FCD18002DF74C /* AKVideoControlView.swift in Sources */,
+				DFC8EE741D3FCD71002DF74C /* MediaCell.swift in Sources */,
+				DFC8EE671D3FCD18002DF74C /* AKVideoBehavior.swift in Sources */,
+				DFC8EE651D3FCD18002DF74C /* AKMediaViewerManager.swift in Sources */,
+				DFC8EE641D3FCD18002DF74C /* AKMediaViewerController.swift in Sources */,
 				DFD2DF311D3E3261001B77EA /* FYMenuTableViewController.swift in Sources */,
 				DFD2DF0A1D3E2B42001B77EA /* FYImageViewController.swift in Sources */,
 				DFD2DF331D3E45E3001B77EA /* PhotosProvider.swift in Sources */,
+				DFC8EE751D3FCD71002DF74C /* FYAKMediaSampleViewController.swift in Sources */,
+				DFC8EE661D3FCD18002DF74C /* AKTransparentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
